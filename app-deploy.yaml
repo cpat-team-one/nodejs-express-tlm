@@ -53,7 +53,7 @@ metadata:
   namespace: dev-tlm
 spec:
   applicationImage: dev.local/nodejs-express-tlm
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
